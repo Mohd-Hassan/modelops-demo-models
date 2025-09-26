@@ -1,0 +1,26 @@
+{
+  "id": "07ff7ab8-9a98-11f0-b871-0242ac110003",
+  "name": "R PIMA GBM",
+  "description": "R PIMA GBM for Diabetes Prediction",
+  "language": "R",
+  "automation": {
+    "training": {
+      "resources": {
+        "cpu": "1",
+        "memory": "1Gi"
+      }
+    },
+    "evaluation": {
+      "resources": {
+        "cpu": "1",
+        "memory": "1Gi"
+      }
+    },
+    "deployment": {
+      "resources": {
+        "cpu": "1",
+        "memory": "1Gi"
+      }
+    }
+  }
+}
